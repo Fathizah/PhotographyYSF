@@ -55,7 +55,7 @@
   background: rgb(0 0 0 / 65%);
   z-index: 1;
 }
-.heading {
+.about .heading {
   color: #fff;
   font-size: 30px;
   font-weight: 600;
@@ -65,7 +65,7 @@
   text-align: center;
   z-index: 3;
 }
-.text {
+.about .text {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
