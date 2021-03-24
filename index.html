@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Images/Logo/YSFlogo.png" alt="logo.jpeg">
+
+        </div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Zahra</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Login/Reg</a></li>
+        </ul>
+    </nav>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="Images/Photographs/ysfy.jpg" alt="Images/Photographs/ysfy.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysgo.jpg" alt="Images/Photographs/ysgo.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfu.jpg" alt="Images/Photographs/ysfu.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysft.jpg" alt="Images/Photographs/ysft.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfv.jpg" alt="Images/Photographs/ysfv.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfs.jpg" alt="Images/Photographs/ysfs.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfa.jpg" alt="Images/Photographs/ysfa.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfd.jpg" alt="Images/Photographs/ysfd.jpg"></div>
+          <div class="swiper-slide"><img src="Images/Photographs/ysfn.jpg" alt="Images/Photographs/ysfn.jpg"></div>
+          
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+            <!--Category-->
+
+      <section class="about">
+        <div class="contentBx">
+          <h2 class="heading">About Us</h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro praesentium quos deleniti incidunt vitae sit iure enim voluptatibus veniam explicabo necessitatibus mollitia earum, nihil saepe optio! Perferendis in quia fugit ut voluptatem at dolorem dolorum doloremque, iusto nobis velit ullam! Mollitia est facilis minima quisquam adipisci, quibusdam, ratione tempora necessitatibus illo at repudiandae nihil corrupti, laborum veniam soluta repellat ipsum ullam fugiat iure beatae blanditiis. Praesentium porro sapiente obcaecati quaerat eaque reprehenderit recusandae ipsum adipisci, animi, fuga expedita sint cupiditate?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque exercitationem id architecto repellendus eum voluptate ex enim error quod quidem culpa voluptates consectetur, ea debitis recusandae, numquam possimus sapiente excepturi.</p>
+        </div>
+        <div class="imgBx"></div>
+      </section>
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop: true,
+    //       autoplay: {
+    //     delay: 500,
+    //     disableOnInteraction: false,
+    //   },
+        });
+      </script>
+
+
+    
+</body>
+</html>
