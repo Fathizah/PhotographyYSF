@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Quicksand',sans-serif;
 }
-body
+.gallerytop
 {
     display: flex;
     justify-content: center;
@@ -14,14 +14,14 @@ body
     min-height: 100vh;
     background: #111;
 }
-.container
+.gallerytop .container
 {
     position: relative;
     width: 800px;
     height: 500px;
     background: #222;
 }
-.container .clip
+.gallerytop .container .clip
 {
     position: absolute;
     top: 0;
@@ -30,33 +30,33 @@ body
     height: 100%;
     transition: 0.5s;
 }
-.container .clip.clip1
+.gallerytop .container .clip.clip1
 {
     background: url(/Images/Photographs/ysfd.jpeg);
     background-size: cover;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
 }
-.container .clip.clip2
+.gallerytop .container .clip.clip2
 {
     background:url(/Images/Photographs/ysfn.jpeg);
     background-size: cover;
     clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
-.container .clip.clip3
+.gallerytop .container .clip.clip3
 {
     background: url(/Images/Photographs/ysft.jpeg);
     background-size: cover;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
-.container:hover .clip
+.gallerytop .container:hover .clip
 {
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
-.container .clip:hover
+.gallerytop .container .clip:hover
 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-.container .clip .content
+.gallerytop .container .clip .content
 {
     position: absolute;
     bottom: -100%;
@@ -67,7 +67,7 @@ body
     opacity: 0;
     transition: 0.5s;
 }
-.container .clip:hover .content
+.gallerytop .container .clip:hover .content
 {
     bottom: 0;
     opacity: 1;
