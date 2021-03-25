@@ -77,9 +77,6 @@
 
 /*Frames Images*/
 
-*{
-  box-sizing: border-box;
-}
 .category{
   text-align: center;
   font-size: 20px;
@@ -87,37 +84,34 @@
   width: 100%;
   height: 100%;
 }
-.column {
+.category .column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
-.row::after{
+.category .row::after{
   content: "";
   display: table;
   clear: both;
 }
 
 /*home menu*/
-.section
+.gallerymenubar
 {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
   font-size: 30px;
 }
-section ul
+.gallerymenubar ul
 {
   float:center;
   margin-left: 300px;
   padding: 0;
   display: flex;
 }
-section ul li
+.gallerymenubar ul li
 {
   list-style: none;
 }
-section ul li a
+.gallerymenubar ul li a
 {
   line-height: 80px;
   color: #262626;
@@ -127,8 +121,8 @@ section ul li a
   text-transform: uppercase;
   transition: 0.1s;
 }
-section ul li a.active,
-section ul li a:hover {
+.gallerymenubar ul li a.active,
+.gallerymenubar ul li a:hover {
   color: #fff;
   background: rgb(58, 57, 57);
   border-radius: 20px;
