@@ -40,12 +40,12 @@ nav ul li a {
 }
 nav ul li a.active,
 nav ul li a:hover {
-  border-bottom: 3px solid rgb(58, 57, 57);
+  border-bottom: 3px solid #214f55;
 }
 
 nav .login {
   color: #fff;
-  background: rgb(58, 57, 57);
+  background: #214f55;
   border-radius: 20px;
   border-bottom: none !important;
 }
