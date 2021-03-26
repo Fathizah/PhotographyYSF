@@ -8,6 +8,9 @@
   width: 100%;
   padding-top: 160px;
   padding-bottom: 200px;
+  background: url(../Images/Logo/YSFlogoBanner.png);
+  background-repeat: no-repeat;
+  background-position: 440px 0px;
 }
 .slider .swiper-slide {
   background-position: center;
@@ -34,6 +37,7 @@
 }
 .galleryslider .swiper-container {
   width: 100%;
+  margin: 60px 0;
 }
 .galleryslider .swiper-slide {
   background-position: center;

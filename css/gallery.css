@@ -9,14 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: #111;
   overflow: hidden;
 }
 .gallerytop .container {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 96vh;
   background: url(/Images/Photographs/hot-air-balloons.jpg);
   background-size: cover;
 }
