@@ -142,7 +142,7 @@
 .gallerymenubar ul {
   float: center;
   margin-left: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   display: flex;
 }
 .gallerymenubar ul li {
