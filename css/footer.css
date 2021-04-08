@@ -12,7 +12,7 @@
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    background: #ede7f6;
+    background:#ede7f6;
 }
 footer
 {
@@ -20,7 +20,7 @@ footer
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: #111;
+    background: #B3B3B3;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@ footer .container .sec.aboutus
 footer .container h2
 {
     position: relative;
-    color: #fff;
+    color:black;
     font-weight: 500;
     margin-bottom: 15px; 
 }
@@ -59,7 +59,7 @@ footer .container h2:before
 }
 footer p
 {
-    color: #999;
+    color:bl;
 
 }
 .sci
@@ -104,7 +104,7 @@ footer p
 }
 .quickLinks ul li a
 {
-    color: #999;
+    color:black;
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
@@ -129,30 +129,30 @@ footer p
 }
 .contact .info li span:nth-child(1)
 {
-    color: #fff;
+    color:black;
     font-size: 20px;
     margin-right: 10px;
 }
 .contact .info li span
 {
-    color: #999;
+    color: black;
 }
 .contact .info li a
 {
-    color: #999;
+    color:black;
     text-decoration: none;
 }
 .contact .info li a:hover
 {
-    color: #fff;
+    color:#fff;
 }
 .copyrightText
 {
     width: 100%;
-    background: #181818;
+    background:black;
     padding: 8px 100px;
     text-align: center;
-    color: #999;
+    color:#fff;
 }
 @media (max-width: 991px)
 {
