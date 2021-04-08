@@ -10,9 +10,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    background:#ede7f6;
+    flex-direction: column; 
 }
 footer
 {
@@ -20,7 +18,7 @@ footer
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background: #B3B3B3;
+    background: linear-gradient(315.66deg, rgba(179, 179, 179, 0.55) 33.9%, rgba(179, 179, 179, 0.19) 48.58%, rgba(179, 179, 179, 0.19) 57.42%, rgba(179, 179, 179, 0.55) 72.5%);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
