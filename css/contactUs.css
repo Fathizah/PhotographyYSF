@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:focus {
+  outline: none;
+}
+.contactUs_page .top,
+.contactUs_page .contact-destais {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.contctus_input {
+  width: 500px;
+  align-items: flex-start !important;
+}
+.contctus_input > div {
+  position: relative;
+  margin: 10px 50px;
+}
+.contctus_input > div > i {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+.contctus_input input {
+  width: 400px !important;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.316) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.contctus_input textarea {
+  width: 400px !important;
+  height: 110px !important;
+  padding-left: 40px;
+  padding-top: 9px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.316) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.contactUs_page .title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+.contactUs_page .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  height: 1px;
+  background: #000;
+}
+
+.contactUs_page span {
+  color: #13a89e;
+}
+.contactUs_page .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 120px;
+  height: 3px;
+  background: #0f75bc;
+}
+.contctus_input .submit {
+  width: 133px !important;
+  border-radius: 9px;
+  color: #fff;
+  padding: 7px 10px;
+  background: linear-gradient(134.17deg, #18d9cd 4.98%, #00b0a5 94.88%);
+  border: none;
+}
