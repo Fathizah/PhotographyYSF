@@ -10,7 +10,7 @@
   padding-bottom: 200px;
   background: url(../Images/Logo/YSFlogoBanner.png);
   background-repeat: no-repeat;
-  background-position: 440px 0px;
+  background-position: 439px -20px;
 }
 .slider .swiper-slide {
   background-position: center;
@@ -142,7 +142,7 @@
 .gallerymenubar ul {
   float: center;
   margin-left: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   display: flex;
 }
 .gallerymenubar ul li {
