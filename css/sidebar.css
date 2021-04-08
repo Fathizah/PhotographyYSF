@@ -63,17 +63,28 @@ section .row {
   width: 63%;
   margin: 0px 22px;
 }
+.row .col51 {
+  position: relative;
+  width: 30%;
+}
 .col51 button {
-  width: 275px;
+  width: 100%;
   background: linear-gradient(90deg, #dfb27d 1.26%, #1e2b36 100%);
   border-radius: 4px;
   margin-top: 10px;
   border: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
 }
 .col51 button h2 {
-  color: #fff;
   text-transform: uppercase;
   margin: 10px 0;
+}
+.col51 button i {
+  font-size: 20px;
 }
 .category {
   text-align: left;
