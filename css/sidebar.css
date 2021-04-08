@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .about {
   display: flex;
@@ -20,24 +20,30 @@
   padding: 10px 0;
   background: #34828c;
   border-radius: 10px;
+  font-family: "Iceland", cursive !important;
+  font-weight: 400;
+  font-size: 35px;
+}
+.wrapper .sidebar h2 i {
+  font-size: 23px;
 }
 .wrapper .sidebar ul li {
-  padding: 15px;
+  padding: 15px 25px;
   border-bottom: 1px solid rgb(0 0 0 / 16%);
   list-style: none;
 }
 .wrapper .sidebar ul li a {
-  color: #000000;
+  color: #06373d;
   display: block;
   text-decoration: none;
-  font-family: "Poppins";
+  font-family: "Iceland", cursive !important;
+  font-size: 25px;
 }
 
 section .row {
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 .row .col50 .imgBx {
   position: relative;
@@ -54,19 +60,19 @@ section .row {
 }
 .row .col50 {
   position: relative;
-  width: 48%;
+  width: 63%;
+  margin: 0px 22px;
 }
-.col50 button {
+.col51 button {
   width: 275px;
   background: linear-gradient(90deg, #dfb27d 1.26%, #1e2b36 100%);
   border-radius: 4px;
   margin-top: 10px;
   border: none;
 }
-.col50 button h2 {
+.col51 button h2 {
   color: #fff;
   text-transform: uppercase;
-  text-align: center;
   margin: 10px 0;
 }
 .category {
@@ -74,12 +80,13 @@ section .row {
   font-size: 20px;
   font-family: sans-serif;
   width: 100%;
-  height: 100%;
 }
 .category .allcolum {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 135px;
+  overflow: hidden;
 }
 .category .column {
   width: 100%;
@@ -89,6 +96,19 @@ section .row {
   content: "";
   display: table;
   clear: both;
+}
+.category h1 {
+  position: relative;
+  margin: 22px 0;
+}
+.category h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 400px;
+  height: 2px;
+  background: #000000;
 }
 .category img {
   width: 100%;
