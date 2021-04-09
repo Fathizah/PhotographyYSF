@@ -5,12 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image detail</title>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+  <section>
+  <div class="navbar">
+    <nav>
+        <div class="logo">
+            <img src="Images/Logo/YSFlogo.png" alt="YSFlogo.png">
+
+        </div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#" class="login">Login / Reg</a></li>
+        </ul>
+    </nav>
+  </div>
+</section>
+
     <section class="about" id="about">
       <div class="menubar">
         <div class="wrapper">
@@ -58,14 +81,108 @@
                   <h2>Free Download</h2>
                   <i class="fa fa-download" aria-hidden="true"></i>
                 </button>
+                <div class="imgSizePop">
+                  <div class="sizeHead">
+                    <div class="Resolution">1280*780</div>
+                    <div class="type">.png</div>
+                    <div class="Size">2MB</div>
+                  </div>
+                  <div class="sizeHead">
+                    <div class="Resolution">1280*780</div>
+                    <div class="type">.png</div>
+                    <div class="Size">2MB</div>
+                  </div>
+                  <div class="sizeHead">
+                    <div class="Resolution">1280*780</div>
+                    <div class="type">.png</div>
+                    <div class="Size">2MB</div>
+                  </div>
+                  <div class="dnldView">
+                    <div class="Download">Download</div>
+                    <div class="view">View</div>
+                  </div>
+                </div>
                 <button class="button">
                   <h2>$BUY</h2>
                   <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                 </button> 
               </div>
+
+              <div class="details">
+                <h2>Details</h2>
+                <div class="deatailHead">
+                  <div class="detailLeft">Image type</div>
+                  <div class="detailRight">jpg</div>
+                </div>
+                <div class="deatailHead">
+                  <div class="detailLeft">Resolution</div>
+                  <div class="detailRight">1280*780</div>
+                </div>
+                <div class="deatailHead">
+                  <div class="detailLeft">Size</div>
+                  <div class="detailRight">3MD</div>
+                </div>
+                <div class="deatailHead">
+                  <div class="detailLeft">Publish</div>
+                  <div class="detailRight">02/02/2021</div>
+                </div>
+              </div>
           </div>
       </div>
     </section>  
+
+    <!--footer-->
+    <section>
+      <div class="footerpage">
+        <footer>
+            <div class="container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempore voluptas nisi est quis temporibus nobis impedit recusandae eos. Dolorem aliquam ducimus voluptates labore magni! Exercitationem et molestiae saepe omnis, nihil autem cupiditate maiores quae temporibus, officiis dolorem dolor, esse nam fugit nobis! Facilis doloribus ratione vero ipsa aliquid quae.</p>
+                    <ul class="sci">
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Consitions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>647 Linda Street<br>
+                            Phoenixville, PA 19460,<br>USA</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <p><a href="tel:12345678900">+1 234 567 8900</a><br>
+                                <a href="tel:12345678900">+1 234 567 8900</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="maiito:knowmore@email.com">knowmore@email.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrightText">
+            <p>Copyright © 2020 Online Tutorials. All Rights Reserved.</p>
+        </div>
+    </div>
+    </section>
     
 
 </body>

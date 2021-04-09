@@ -63,7 +63,7 @@
 }
 
 .contactUs_page span {
-  color: #13a89e;
+  color: #06373d;
 }
 .contactUs_page .title::after {
   content: "";
@@ -72,13 +72,13 @@
   left: 0;
   width: 120px;
   height: 3px;
-  background: #0f75bc;
+  background: #06373d;
 }
 .contctus_input .submit {
   width: 133px !important;
   border-radius: 9px;
   color: #fff;
   padding: 7px 10px;
-  background: linear-gradient(134.17deg, #18d9cd 4.98%, #00b0a5 94.88%);
+  background: linear-gradient(134.17deg, #06373d 4.98%, #06373d 94.88%);
   border: none;
 }
