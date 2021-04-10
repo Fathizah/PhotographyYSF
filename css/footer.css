@@ -27,25 +27,25 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-footer .container {
+footer .lastcon {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
 }
-footer .container .sec {
+footer .lastcon .sec {
   margin-right: 30px;
 }
-footer .container .sec.aboutus {
+footer .lastcon .sec.aboutus {
   width: 40%;
 }
-footer .container h2 {
+footer .lastcon h2 {
   position: relative;
   color: black;
   font-weight: 500;
   margin-bottom: 15px;
 }
-footer .container h2:before {
+footer .lastcon h2:before {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -128,14 +128,14 @@ footer p {
   footer {
     padding: 40px;
   }
-  footer .container {
+  footer .lastcon {
     flex-direction: column;
   }
-  footer .container .sec {
+  footer .lastcon .sec {
     margin-right: 0;
     margin-bottom: 40px;
   }
-  footer .container .sec.sec.aboutus,
+  footer .lastcon .sec.sec.aboutus,
   .quickLinks,
   .contact {
     width: 100%;
