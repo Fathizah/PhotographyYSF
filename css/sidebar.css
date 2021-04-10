@@ -5,7 +5,7 @@
 }
 .about {
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .wrapper .sidebar {
   position: relative;
@@ -31,7 +31,6 @@
 }
 .wrapper .sidebar ul li {
   padding: 15px 25px;
-  border-bottom: 1px solid rgb(0 0 0 / 16%);
   list-style: none;
   padding: 5px 0px;
   text-align: center;
@@ -150,7 +149,7 @@ section .row {
   align-items: center;
   height: 135px;
   overflow: hidden;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .category .column {
   width: 100%;

@@ -14,6 +14,7 @@
   justify-content: space-around;
   align-items: baseline;
   font-family: "Poppins", sans-serif !important;
+  margin-top: 20px;
 }
 
 .contctus_input {
@@ -81,4 +82,14 @@
   padding: 7px 10px;
   background: linear-gradient(134.17deg, #06373d 4.98%, #06373d 94.88%);
   border: none;
+}
+.contactimg .center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
 }
