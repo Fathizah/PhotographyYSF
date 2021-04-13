@@ -12,14 +12,14 @@
   background: #111;
   overflow: hidden;
 }
-.gallerytop .container {
+.gallerytop .gallerysec {
   position: relative;
   width: 100%;
   height: 96vh;
   background: url(/Images/Photographs/hot-air-balloons.jpg);
   background-size: cover;
 }
-.gallerytop .container .clip {
+.gallerytop .gallerysec .clip {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,33 +27,33 @@
   height: 100%;
   transition: 0.5s;
 }
-.gallerytop .container .clip.clip1 {
+.gallerytop .gallerysec .clip.clip1 {
   background: url(/Images/Photographs/hot-air-balloons.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 30% 0, 20% 100%, 0% 100%);
 }
-.gallerytop .container .clip.clip2 {
+.gallerytop .gallerysec .clip.clip2 {
   background: url(/Images/Photographs/squirrel.jpg);
   background-size: cover;
   clip-path: polygon(30% 0, 57% 0, 47% 100%, 20% 100%);
 }
-.gallerytop .container .clip.clip3 {
+.gallerytop .gallerysec .clip.clip3 {
   background: url(/Images/Photographs/boats.jpg);
   background-size: cover;
   clip-path: polygon(57% 0, 80% 0, 70% 100%, 47% 100%);
 }
-.gallerytop .container .clip.clip4 {
+.gallerytop .gallerysec .clip.clip4 {
   background: url(/Images/Photographs/nature.jpg);
   background-size: cover;
   clip-path: polygon(80% 0, 100% 0, 100% 100%, 70% 100%);
 }
-.gallerytop .container:hover .clip {
+.gallerytop .gallerysec:hover .clip {
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
-.gallerytop .container .clip:hover {
+.gallerytop .gallerysec .clip:hover {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-.gallerytop .container .clip .content {
+.gallerytop .gallerysec .clip .content {
   position: absolute;
   bottom: -100%;
   left: 0;
@@ -64,7 +64,7 @@
   opacity: 0;
   transition: 0.5s;
 }
-.gallerytop .container .clip:hover .content {
+.gallerytop .gallerysec .clip:hover .content {
   bottom: 0;
   opacity: 1;
 }
