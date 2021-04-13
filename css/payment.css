@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:focus {
+  outline: none;
+}
+.paymentdetail .paymentform,
+.paymentdetail .contact-destais {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif !important;
+  margin-top: 20px;
+}
+
+.paymentdtl_input {
+  width: 500px;
+  align-items: flex-start !important;
+}
+.paymentdtl_input > div {
+  position: relative;
+  margin: 15px 100px;
+  
+}
+.paymentdtl_input > div > i {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+.paymentdtl_input input {
+  width: 400px !important;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.316) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.paymentdtl_input textarea {
+  width: 400px !important;
+  height: 110px !important;
+  padding-left: 40px;
+  padding-top: 9px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.316) !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.paymentdetail .title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+.paymentdetail .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  height: 1px;
+  background: #000;
+}
+
+.paymentdetail .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 120px;
+  height: 3px;
+  background: #06373d;
+}
+.paymentdtl_input .submit {
+  width: 133px !important;
+  border-radius: 9px;
+  color: #fff;
+  padding: 7px 10px;
+  background: linear-gradient(134.17deg, #06373d 4.98%, #06373d 94.88%);
+  border: none;
+  cursor: pointer;
+}
+.paymentimg .left
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
+}
+.imghead
+{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+font-family: sans-serif;
+font-size: 20px;
+
+}  
+.imgcolumn {
+float: left;
+width: 33.33%;
+padding: 5px;
+margin-left: 10px;
+}
+  
+/* Clearfix (clear floats) */
+.pymntrow::after {
+content: "";
+clear: both;
+display: table;
+  }
+.paymentdetail {
+margin: 50px 30px 0 0;
+font-family: sans-serif;
+font-size: 20px;
+}
+.paymentdetail h2 {
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.paymentdetail .pymnttop {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.paymentdetail .detailLeft {
+margin-left: 10%;
+margin-right: 10%;
+}
+.clickbutton a {
+color: #fff;
+border: 1px black;
+border-radius: 2px;
+background: #06373d;
+border-width: 50px;
+text-decoration: none;
+margin-top: 20px;
+margin-left: 165px;
+margin-right: 0;
+padding: 5px 20px;
+border-radius: 30px;
+}
