@@ -8,14 +8,16 @@
 :focus {
   outline: none;
 }
-.paymentform {
+.paymentdetail .paymentform {
   position: relative;
   overflow: hidden;
   width: 100%;
+  margin-top: 100px;
 }
 .paymentform:before {
   content: "";
   position: absolute;
+  margin-top: 50px;
   height: 2000px;
   width: 2000px;
   top: -10%;
@@ -32,6 +34,8 @@
   justify-content: space-around;
   font-family: "Poppins", sans-serif !important;
   align-items: center;
+ 
+
 }
 
 .paymentdtl_input {
@@ -127,14 +131,14 @@
   clear: both;
   display: table;
 }
-.paymentdetail {
+.paymentdetail .pymnttop {
   font-family: sans-serif;
   font-size: 20px;
+  margin: 0px 30px 0 0;
 }
-.paymentdetail h2 {
-  text-align: center;
+.paymentdetail  h2 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
 }
 .paymentdetail .pymnttop {
   display: flex;
